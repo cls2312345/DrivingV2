@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Driving Academy</h1>
+    </header>
+
+    <main>
+        <section class="request-section">
+            <h2>Request a Driving Test</h2>
+            <form id="testRequestForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="testType">Test Type:</label>
+                <select id="testType" required>
+                    <option value="Road Test">Road Test</option>
+                    <option value="Written Test">Written Test</option>
+                </select>
+
+                <button type="submit">Submit Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Driving Academy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
